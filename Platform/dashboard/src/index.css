@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+
+.auth-no-caret label {
+  user-select: none;      
+  cursor: default;        
+  pointer-events: none;   
+}
+
+
+.auth-no-caret .noninteractive {
+  user-select: none;
+  cursor: default;
+}

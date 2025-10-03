@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "maplibre-gl": "^5.8.0",
+    "three": "^0.180.0"
+  }
+}

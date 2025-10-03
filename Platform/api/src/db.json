@@ -1,0 +1,1904 @@
+{
+  "users": [
+    {
+      "id": "u-1",
+      "name": "SuperAdminPEL",
+      "email": "superadmin@example.com",
+      "passwordHash": "$2a$10$WydwBDd3xunM4nwX3gLjJeXclewcbT3NRMrjN45n3eNsdZEs9/zvu",
+      "roleId": "role-superadminpel",
+      "approved": true,
+      "profile": {
+        "company": "",
+        "language": "en",
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "phone": {
+          "dial": "",
+          "number": ""
+        }
+      }
+    },
+    {
+      "id": "13aa873a-7298-4163-aa6b-d9f245e9e544",
+      "name": "TestAdmin",
+      "email": "adminpel@test.com",
+      "passwordHash": "$2a$10$fw.GaVWHZZFTMYPa0.zBo.2lg1rRa5AzFHbMb0IWcnskOlALeFj0S",
+      "roleId": "role-adminpel",
+      "approved": false,
+      "profile": {
+        "company": "PEL Office",
+        "language": "en",
+        "address1": "Station Road",
+        "address2": "",
+        "city": "Ballindine",
+        "state": "Mayo",
+        "country": "IE",
+        "phone": {
+          "dial": "",
+          "number": ""
+        }
+      }
+    },
+    {
+      "id": "f42b192c-abd0-4768-a3a5-60e368d483b0",
+      "name": "Test Distributor",
+      "email": "distributor@test.com",
+      "passwordHash": "$2a$10$HxQzyUi7se0tYOBJCEguQuE31d3CPcFnuIt3FVn84wBR1M8gtH9Pq",
+      "roleId": "role-distributor",
+      "approved": false,
+      "profile": {
+        "company": "PEL Office",
+        "language": "en",
+        "address1": "Station Road",
+        "address2": "",
+        "city": "Ballindine",
+        "state": "Mayo",
+        "country": "IE",
+        "phone": {
+          "dial": "",
+          "number": ""
+        }
+      }
+    },
+    {
+      "id": "682104ee-5977-470c-b6a2-0593475629a5",
+      "name": "Test Technician",
+      "email": "technician@test.com",
+      "passwordHash": "$2a$10$ozk2tyv.dbAqCVe1dDykCO9I/C9wJTUQQr6In.vaCJF0BbxdtzUMq",
+      "roleId": "role-technician",
+      "approved": false,
+      "profile": {
+        "company": "PEL Office",
+        "language": "en",
+        "address1": "Station Road",
+        "address2": "",
+        "city": "Ballindine",
+        "state": "Mayo",
+        "country": "IE",
+        "phone": {
+          "dial": "",
+          "number": ""
+        }
+      }
+    },
+    {
+      "id": "c46b5951-7a19-4935-b4c9-8ae069762d88",
+      "name": "Test Customer",
+      "email": "customer@test.com",
+      "passwordHash": "$2a$10$Wmg3qtEF2u09qEAl3iAyXu.KZchkXHSa0/fzbWBwDCGLNPYuSbTGi",
+      "roleId": "role-customer",
+      "approved": false,
+      "profile": {
+        "company": "PEL Office",
+        "language": "en",
+        "address1": "Station Road",
+        "address2": "",
+        "city": "Ballindine",
+        "state": "Mayo",
+        "country": "IE",
+        "phone": {
+          "dial": "",
+          "number": ""
+        }
+      }
+    }
+  ],
+  "passwordResets": [
+    {
+      "token": "cb29d21e5eb51c55581f1dd882a033f499f949e90e242128",
+      "userId": "d5f989cc-920d-4566-a9cc-f0000fdc91d4",
+      "expiresAt": 1758215847553
+    }
+  ],
+  "crushers": [
+    {
+      "id": "c-201",
+      "name": "PEL Office",
+      "type": "BB01",
+      "location": "Mayo, IE",
+      "serial": "PEL-TESTSERIAL-1",
+      "mainsVoltage": 0,
+      "temperature": 0,
+      "customer": "PEL",
+      "lastSync": "2025-10-03T07:58:47.619Z",
+      "alertsCount": 0,
+      "lat": 53.6693143764513,
+      "lng": -8.958847767941764,
+      "status": "ok",
+      "fillLevel": 0,
+      "crushedToday": 0,
+      "lastEmptied": null
+    },
+    {
+      "id": "c-202",
+      "name": "Pel Office",
+      "type": "BB06",
+      "location": "Mayo, IE",
+      "serial": "PEL-TESTSERIAL-2",
+      "mainsVoltage": 0,
+      "temperature": 0,
+      "customer": "PEL",
+      "lastSync": "2025-10-03T07:58:47.620Z",
+      "alertsCount": 0,
+      "lat": 53.669192176170654,
+      "lng": -8.959176798184336,
+      "status": "warning",
+      "fillLevel": 0,
+      "crushedToday": 0,
+      "lastEmptied": null
+    }
+  ],
+  "events": [
+    {
+      "id": "9b0c5f65-37d1-4665-bc4a-43902f4d40bb",
+      "crusherId": "c-201",
+      "ts": "2025-09-30T15:57:14.943Z",
+      "type": "SERVICE",
+      "level": null,
+      "message": "jbklj",
+      "source": "SuperAdminPEL",
+      "meta": {
+        "id": "993626dd-e754-42c7-8e14-fee8214a7a63",
+        "image": true
+      }
+    },
+    {
+      "id": "e47b9667-ffc3-477b-8ceb-d738fb8af224",
+      "crusherId": "c-201",
+      "ts": "2025-09-29T14:38:02.174Z",
+      "type": "SUBSCRIPTION",
+      "level": null,
+      "message": "Subscription created",
+      "source": "SuperAdminPEL",
+      "meta": {
+        "id": "7174267b-691f-4a43-a95c-a98b197d4907",
+        "plan": null,
+        "status": null
+      }
+    },
+    {
+      "id": "b790d6e2-9257-41d2-b6bd-93fd7b505b23",
+      "crusherId": "c-201",
+      "ts": "2025-09-29T14:37:57.876Z",
+      "type": "SUBSCRIPTION",
+      "level": null,
+      "message": "Subscription deleted",
+      "source": "SuperAdminPEL",
+      "meta": {
+        "id": "c1142239-2c80-4ac6-adc5-20e46e21afd5",
+        "deleted": true
+      }
+    },
+    {
+      "id": "eacbb5de-56e5-4dfb-9504-c8b09e200415",
+      "crusherId": "c-201",
+      "ts": "2025-09-29T14:37:56.384Z",
+      "type": "SUBSCRIPTION",
+      "level": null,
+      "message": "Subscription deleted",
+      "source": "SuperAdminPEL",
+      "meta": {
+        "id": "231647c4-9260-48e6-a39b-f5a2691a4540",
+        "deleted": true
+      }
+    },
+    {
+      "id": "fe02c0c6-693c-4b41-945f-49dce2b3fc37",
+      "crusherId": "c-201",
+      "ts": "2025-09-29T14:37:50.143Z",
+      "type": "SUBSCRIPTION",
+      "level": null,
+      "message": "Subscription created",
+      "source": "SuperAdminPEL",
+      "meta": {
+        "id": "231647c4-9260-48e6-a39b-f5a2691a4540",
+        "plan": null,
+        "status": null
+      }
+    },
+    {
+      "id": "c61cac92-f041-435e-9cca-c20f2070d96c",
+      "crusherId": "c-201",
+      "ts": "2025-09-29T14:15:24.158Z",
+      "type": "INSTALL",
+      "level": null,
+      "message": "dfsdf",
+      "source": "SuperAdminPEL",
+      "meta": {
+        "id": "22162f03-52a8-4a35-b2bb-6d6a25686bea",
+        "image": true
+      }
+    },
+    {
+      "id": "abc9d89b-2810-4a34-b746-356a39fe0c3c",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 12,
+      "ts": "2025-09-17T10:10:44.036Z"
+    },
+    {
+      "id": "56fa0161-8dd0-435f-bf16-0f527f22edf9",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 9,
+      "ts": "2025-09-17T10:10:44.036Z"
+    },
+    {
+      "id": "965537a2-ff8a-42a6-9fd6-4fab7de18122",
+      "type": "maintenance",
+      "crusherId": "c-103",
+      "note": "Routine check",
+      "ts": "2025-09-17T10:10:44.037Z"
+    },
+    {
+      "id": "d7c77e83-644a-4e9b-a267-e065a98dd149",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 10,
+      "ts": "2025-09-17T13:28:22.848Z"
+    },
+    {
+      "id": "0daeaa29-e568-4ec6-8d0b-377e33a19835",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 9,
+      "ts": "2025-09-17T13:28:25.864Z"
+    },
+    {
+      "id": "d9c93163-43e4-4460-a884-43fed23989bc",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 10,
+      "ts": "2025-09-17T13:28:28.882Z"
+    },
+    {
+      "id": "61df7269-43be-458b-a249-8764057fe3c3",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 8,
+      "ts": "2025-09-17T13:28:31.923Z"
+    },
+    {
+      "id": "233cc749-b5bb-4abe-86d9-8442294e27c2",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 7,
+      "ts": "2025-09-17T13:28:34.943Z"
+    },
+    {
+      "id": "1d9061d2-c12b-4a47-99d4-fad9a55bcd10",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 5,
+      "ts": "2025-09-17T13:28:37.961Z"
+    },
+    {
+      "id": "323f2ce4-29eb-42e6-99f0-536a79feaee1",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 16,
+      "ts": "2025-09-17T13:28:40.969Z"
+    },
+    {
+      "id": "3f8ea019-7587-41de-b3a8-90a7089cd651",
+      "type": "maintenance",
+      "crusherId": "c-101",
+      "note": "Emptied hopper",
+      "ts": "2025-09-17T13:28:40.976Z"
+    },
+    {
+      "id": "6dc7b8ec-dd41-4b2b-94a5-df4bbfeae48f",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 19,
+      "ts": "2025-09-17T13:28:43.993Z"
+    },
+    {
+      "id": "39e23e66-25ce-4505-b578-f9cde4923a38",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 6,
+      "ts": "2025-09-17T13:28:47.004Z"
+    },
+    {
+      "id": "3da3c30f-85bc-42af-85e8-15aceb43299a",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 17,
+      "ts": "2025-09-17T13:28:50.019Z"
+    },
+    {
+      "id": "2e8b4e84-bef4-48fd-befb-35ac2cad597f",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 16,
+      "ts": "2025-09-17T13:28:53.041Z"
+    },
+    {
+      "id": "17162986-9818-4926-9472-3f78a6a56d87",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 13,
+      "ts": "2025-09-17T13:28:56.063Z"
+    },
+    {
+      "id": "887dd160-2ac3-4dd8-a321-81f495edd3d7",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 5,
+      "ts": "2025-09-17T13:28:59.080Z"
+    },
+    {
+      "id": "582b1d42-079b-40aa-b062-caacb84f7f74",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 10,
+      "ts": "2025-09-17T13:29:02.106Z"
+    },
+    {
+      "id": "ee80719d-67f2-477a-b01d-f36c693db7b2",
+      "type": "maintenance",
+      "crusherId": "c-101",
+      "note": "Emptied hopper",
+      "ts": "2025-09-17T13:29:02.117Z"
+    },
+    {
+      "id": "9d52d824-98f4-47a7-8f74-41d150b22d8c",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 9,
+      "ts": "2025-09-17T13:29:05.138Z"
+    },
+    {
+      "id": "d315bd27-9ad1-45f1-a7d7-35aa532c3f58",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 7,
+      "ts": "2025-09-17T13:29:08.151Z"
+    },
+    {
+      "id": "337407ee-234a-4db5-b18d-e2afe9b1d929",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 13,
+      "ts": "2025-09-17T13:29:11.168Z"
+    },
+    {
+      "id": "062ff153-b9dc-4936-a398-8a943009f2f5",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 13,
+      "ts": "2025-09-17T13:29:14.182Z"
+    },
+    {
+      "id": "2e04c48e-1e26-4a09-80bb-84bb80bc85d7",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 9,
+      "ts": "2025-09-17T13:29:17.193Z"
+    },
+    {
+      "id": "4228782e-8440-4b50-8a5e-247880d672e2",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 16,
+      "ts": "2025-09-17T13:29:20.201Z"
+    },
+    {
+      "id": "b858c8ba-4e78-4a75-896d-cc66c13a3414",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 12,
+      "ts": "2025-09-17T13:29:23.206Z"
+    },
+    {
+      "id": "83520b56-15c9-4802-88a9-7011fb618edf",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 10,
+      "ts": "2025-09-17T13:29:26.224Z"
+    },
+    {
+      "id": "2385a0b4-f080-4a0b-a740-689b435a119e",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 14,
+      "ts": "2025-09-17T13:29:29.242Z"
+    },
+    {
+      "id": "98aca18d-28b9-4be3-a7d4-c8e5efa2e910",
+      "type": "maintenance",
+      "crusherId": "c-103",
+      "note": "Emptied hopper",
+      "ts": "2025-09-17T13:29:29.245Z"
+    },
+    {
+      "id": "48dbc323-f19b-4a3c-ba57-ce32cfafa6bd",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 17,
+      "ts": "2025-09-17T13:29:32.261Z"
+    },
+    {
+      "id": "4679d83e-66ec-4387-82cd-e32cf8aea2bb",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 10,
+      "ts": "2025-09-17T13:29:35.290Z"
+    },
+    {
+      "id": "06b523b4-9961-41f2-87ce-60e49c206b2a",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 5,
+      "ts": "2025-09-17T13:29:38.303Z"
+    },
+    {
+      "id": "d9501557-6109-46de-a210-b025bca21e55",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 13,
+      "ts": "2025-09-17T13:29:41.315Z"
+    },
+    {
+      "id": "8218108b-a2e4-49ee-b290-6cd39272b14d",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 12,
+      "ts": "2025-09-17T13:29:44.328Z"
+    },
+    {
+      "id": "38981fa4-6eca-4364-9195-15a66a6f5eed",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 5,
+      "ts": "2025-09-17T13:29:47.346Z"
+    },
+    {
+      "id": "8b249150-ed13-4ac1-9544-8b107c50684d",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 6,
+      "ts": "2025-09-17T13:29:50.365Z"
+    },
+    {
+      "id": "978bb285-c551-4bf9-af19-c16d645704af",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 17,
+      "ts": "2025-09-17T13:29:53.373Z"
+    },
+    {
+      "id": "cd425cce-a575-4edd-a3e8-d853653bd3b9",
+      "type": "maintenance",
+      "crusherId": "c-102",
+      "note": "Emptied hopper",
+      "ts": "2025-09-17T13:29:53.379Z"
+    },
+    {
+      "id": "84f73ceb-31d1-4907-b1dd-e374fe58e3ff",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 9,
+      "ts": "2025-09-17T13:29:56.402Z"
+    },
+    {
+      "id": "bdc0a672-a525-44c1-b788-28dc88ef9953",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 12,
+      "ts": "2025-09-17T13:29:59.419Z"
+    },
+    {
+      "id": "06926f06-3696-4928-89c7-04939d148c31",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 5,
+      "ts": "2025-09-17T13:30:02.436Z"
+    },
+    {
+      "id": "e629dfc4-0538-4f5c-be73-3394190908fc",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 9,
+      "ts": "2025-09-17T13:30:05.441Z"
+    },
+    {
+      "id": "662cab64-8fc1-4f60-90c9-171a280eb907",
+      "type": "maintenance",
+      "crusherId": "c-102",
+      "note": "Emptied hopper",
+      "ts": "2025-09-17T13:30:05.444Z"
+    },
+    {
+      "id": "bce049e1-5926-4ffb-8fbd-c8f42119b9dd",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 10,
+      "ts": "2025-09-17T13:30:08.454Z"
+    },
+    {
+      "id": "9e8ceca7-f7e0-4862-8050-28aa33b5b8c2",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 16,
+      "ts": "2025-09-17T13:30:11.469Z"
+    },
+    {
+      "id": "1aabae1a-d8c8-47f7-9f15-104d149fff70",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 12,
+      "ts": "2025-09-17T13:30:14.487Z"
+    },
+    {
+      "id": "51673ab4-48d3-48fa-ba65-f2cb38731d00",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 12,
+      "ts": "2025-09-17T13:30:17.502Z"
+    },
+    {
+      "id": "6f291590-fa18-4d33-aa92-d5053b062991",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 13,
+      "ts": "2025-09-17T13:30:20.526Z"
+    },
+    {
+      "id": "4d9ac7a3-71a6-4856-a80f-a08ff51020e2",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 17,
+      "ts": "2025-09-17T13:30:23.548Z"
+    },
+    {
+      "id": "4410f8c6-cafa-45f7-b728-24228e2d90b3",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 6,
+      "ts": "2025-09-17T13:30:26.562Z"
+    },
+    {
+      "id": "565f9194-085f-42cf-96b9-681384ae36ba",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 15,
+      "ts": "2025-09-17T13:30:29.571Z"
+    },
+    {
+      "id": "a51de849-1339-4ba9-b4ab-ae3274e6272d",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 15,
+      "ts": "2025-09-17T13:30:32.584Z"
+    },
+    {
+      "id": "3ed6ac52-ce40-47af-a976-77ed08af94ad",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 5,
+      "ts": "2025-09-17T13:30:35.602Z"
+    },
+    {
+      "id": "82e9ebdf-27a0-4f10-9e5d-b487a9bf09a9",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 5,
+      "ts": "2025-09-17T13:30:38.614Z"
+    },
+    {
+      "id": "b8c6fb30-a227-4906-aef2-8f840d6ec469",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 12,
+      "ts": "2025-09-17T13:30:41.624Z"
+    },
+    {
+      "id": "a9d258a0-0a5f-4770-a9dd-ff7a0e0c42e9",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 10,
+      "ts": "2025-09-17T13:30:44.635Z"
+    },
+    {
+      "id": "ebcc57d9-4739-438e-a318-2e66b5f52ccf",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 11,
+      "ts": "2025-09-17T13:30:47.657Z"
+    },
+    {
+      "id": "00a15770-f918-4e81-b49e-ce2868678f1c",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 17,
+      "ts": "2025-09-17T13:30:50.671Z"
+    },
+    {
+      "id": "fbc4caa0-b632-469e-a052-1fa3aa38eca8",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 19,
+      "ts": "2025-09-17T13:30:53.687Z"
+    },
+    {
+      "id": "154970fb-cad7-4386-8870-399152623244",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 13,
+      "ts": "2025-09-17T13:30:56.698Z"
+    },
+    {
+      "id": "f2415c9f-4b30-441c-84a2-8f8dcf407f06",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 15,
+      "ts": "2025-09-17T13:30:59.708Z"
+    },
+    {
+      "id": "f60ec205-51e0-455a-a0a3-828d66994d02",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 5,
+      "ts": "2025-09-17T13:31:02.725Z"
+    },
+    {
+      "id": "9da2b97b-2ebe-489f-971c-e7275725b3ba",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 16,
+      "ts": "2025-09-17T13:31:05.741Z"
+    },
+    {
+      "id": "d33bb275-1c89-4f4d-a000-bc59b3707ced",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 12,
+      "ts": "2025-09-17T13:31:08.753Z"
+    },
+    {
+      "id": "0e223c7f-51c4-46a9-a647-cb65370928b1",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 13,
+      "ts": "2025-09-17T13:31:11.776Z"
+    },
+    {
+      "id": "a1030e6b-f82a-40c3-a543-3ae321c789a2",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 7,
+      "ts": "2025-09-17T13:31:14.795Z"
+    },
+    {
+      "id": "88652b72-a319-4aa3-baf6-bab1de9fee10",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 15,
+      "ts": "2025-09-17T13:31:17.810Z"
+    },
+    {
+      "id": "cb4fef89-e36d-4cb0-824f-45cf31011404",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 18,
+      "ts": "2025-09-17T13:31:20.819Z"
+    },
+    {
+      "id": "7246803c-f68c-4f45-b870-561d125626e1",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 15,
+      "ts": "2025-09-17T13:31:23.830Z"
+    },
+    {
+      "id": "baada3e3-3c64-426c-825d-4e9fbd563bcb",
+      "type": "maintenance",
+      "crusherId": "c-102",
+      "note": "Emptied hopper",
+      "ts": "2025-09-17T13:31:23.838Z"
+    },
+    {
+      "id": "7ee7dc84-7b96-4314-8a7a-9f4b136036cd",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 18,
+      "ts": "2025-09-17T13:31:26.858Z"
+    },
+    {
+      "id": "0e7604e9-9947-4e55-a871-60f3f4c728ac",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 20,
+      "ts": "2025-09-17T13:31:29.875Z"
+    },
+    {
+      "id": "0573102d-603a-465e-ac6b-8b55fe8e68cb",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 18,
+      "ts": "2025-09-17T13:31:32.894Z"
+    },
+    {
+      "id": "40ff0d3c-fe6a-4087-873a-598deed6496d",
+      "type": "maintenance",
+      "crusherId": "c-101",
+      "note": "Emptied hopper",
+      "ts": "2025-09-17T13:31:32.907Z"
+    },
+    {
+      "id": "d20c0ab2-924e-4ced-8914-328f0f597f6a",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 11,
+      "ts": "2025-09-17T13:31:35.918Z"
+    },
+    {
+      "id": "ce84014c-f875-41c3-b393-1bb2f538ae18",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 10,
+      "ts": "2025-09-17T13:31:38.929Z"
+    },
+    {
+      "id": "f2eb10c1-809e-4058-9418-abc34382272a",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 5,
+      "ts": "2025-09-17T13:31:41.949Z"
+    },
+    {
+      "id": "ae0b9f2c-fb70-4daa-be7d-fd74b9f82a89",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 20,
+      "ts": "2025-09-17T13:31:44.968Z"
+    },
+    {
+      "id": "8f9705fa-e0a9-4ec7-ba0f-75605b792a26",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 8,
+      "ts": "2025-09-17T13:31:47.986Z"
+    },
+    {
+      "id": "81a79c4a-d2bb-42c4-a0c3-4ff835c0f14b",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 18,
+      "ts": "2025-09-17T13:31:51.001Z"
+    },
+    {
+      "id": "fc019f9d-d006-4da8-971a-be2d62e77ea6",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 6,
+      "ts": "2025-09-17T13:31:54.016Z"
+    },
+    {
+      "id": "3aa2a566-56bd-4348-855f-a0e5cd015ba6",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 17,
+      "ts": "2025-09-17T13:31:57.024Z"
+    },
+    {
+      "id": "f650de13-80dc-4455-bb89-5858a99371ed",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 18,
+      "ts": "2025-09-17T13:32:00.035Z"
+    },
+    {
+      "id": "caa1ee22-20c2-4b94-a467-3eec46504136",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 19,
+      "ts": "2025-09-17T13:32:03.044Z"
+    },
+    {
+      "id": "930121e8-63ab-4f5d-8ab0-8a426b84250f",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 10,
+      "ts": "2025-09-17T13:32:06.057Z"
+    },
+    {
+      "id": "6279f278-edcc-4ccd-8ed9-bb06dfb748b9",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 8,
+      "ts": "2025-09-17T13:32:09.067Z"
+    },
+    {
+      "id": "e6d00b40-1e70-4f28-8b59-ace90833a8bd",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 13,
+      "ts": "2025-09-18T14:55:11.896Z"
+    },
+    {
+      "id": "ca719854-95d5-4454-a54b-10b5a069318b",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 10,
+      "ts": "2025-09-18T14:55:14.910Z"
+    },
+    {
+      "id": "f2e560d1-ae52-4c57-8b34-43d1f0f0ba69",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 18,
+      "ts": "2025-09-18T14:55:17.943Z"
+    },
+    {
+      "id": "06c92d0a-3063-43d7-a5b6-85c933d6e8f8",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 18,
+      "ts": "2025-09-18T14:55:20.995Z"
+    },
+    {
+      "id": "0f77f164-456f-4b9f-bcb0-0ac0006dcaef",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 9,
+      "ts": "2025-09-18T14:55:24.016Z"
+    },
+    {
+      "id": "bbc6b496-37ba-4947-a824-e177449e2273",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 17,
+      "ts": "2025-09-18T14:55:27.032Z"
+    },
+    {
+      "id": "ff90ccc5-5dd7-430b-8fd9-a84e013664f6",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 17,
+      "ts": "2025-09-18T14:55:30.055Z"
+    },
+    {
+      "id": "33ef04e3-7d71-4c04-bce0-28c1031f5ca3",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 11,
+      "ts": "2025-09-18T14:55:33.083Z"
+    },
+    {
+      "id": "1d981484-b2c8-43fe-a6a8-9c6566852608",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 10,
+      "ts": "2025-09-18T14:55:36.101Z"
+    },
+    {
+      "id": "d1b9afe2-7871-4278-8016-f02443efd721",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 17,
+      "ts": "2025-09-18T14:55:39.121Z"
+    },
+    {
+      "id": "f751ab92-ef8e-4e23-8874-ec1e348596fa",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 18,
+      "ts": "2025-09-18T14:55:42.137Z"
+    },
+    {
+      "id": "96032bf4-43d6-4274-92b8-599c151b7a66",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 6,
+      "ts": "2025-09-18T14:55:45.159Z"
+    },
+    {
+      "id": "68323522-868b-4de5-9e3c-a871f414c2fc",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 11,
+      "ts": "2025-09-18T14:55:48.178Z"
+    },
+    {
+      "id": "76c5299e-e943-46cf-a783-b4445103212e",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 10,
+      "ts": "2025-09-18T14:55:51.205Z"
+    },
+    {
+      "id": "aefe1aac-7c4c-4000-aa9b-05bc22606857",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 17,
+      "ts": "2025-09-18T14:55:54.218Z"
+    },
+    {
+      "id": "a933adfd-9409-4a93-8c89-29ae78d3c3b4",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 9,
+      "ts": "2025-09-18T14:55:57.250Z"
+    },
+    {
+      "id": "54f195fc-790b-4557-ab5b-c592c98c4be5",
+      "type": "maintenance",
+      "crusherId": "c-103",
+      "note": "Emptied hopper",
+      "ts": "2025-09-18T14:55:57.257Z"
+    },
+    {
+      "id": "7b711e13-21f8-49fa-b5e5-0976fd6ac71b",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 18,
+      "ts": "2025-09-18T14:56:00.266Z"
+    },
+    {
+      "id": "521c8e43-e864-4aa3-9dae-a7075b87da03",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 10,
+      "ts": "2025-09-18T14:56:03.280Z"
+    },
+    {
+      "id": "ebb8fe8d-9e62-4d2f-9921-deaac029281d",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 11,
+      "ts": "2025-09-18T14:56:06.303Z"
+    },
+    {
+      "id": "80d1cf2f-3eb4-471c-8d8e-0cc9fdb10c81",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 16,
+      "ts": "2025-09-18T14:56:09.320Z"
+    },
+    {
+      "id": "d82870cb-70f3-4066-a985-2304705e6414",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 20,
+      "ts": "2025-09-18T14:56:12.345Z"
+    },
+    {
+      "id": "ba669331-7a90-4f39-ab5c-496fcb7e7f73",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 17,
+      "ts": "2025-09-18T14:56:15.368Z"
+    },
+    {
+      "id": "f06ddf06-bb5e-4104-96f5-2247cb8902af",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 6,
+      "ts": "2025-09-18T14:56:18.391Z"
+    },
+    {
+      "id": "13d53bbc-93e0-4df0-b286-6964e9a96a0a",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 13,
+      "ts": "2025-09-18T14:56:21.421Z"
+    },
+    {
+      "id": "824f77ef-ff99-4f19-bc64-e8dfadd90fcb",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 10,
+      "ts": "2025-09-18T14:56:24.443Z"
+    },
+    {
+      "id": "9b218d4b-e990-4781-8c10-434bd928387e",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 11,
+      "ts": "2025-09-18T14:56:27.461Z"
+    },
+    {
+      "id": "6bc1d12f-5dd3-4947-ab9d-af1fbd0779aa",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 18,
+      "ts": "2025-09-18T14:56:30.493Z"
+    },
+    {
+      "id": "282d73ca-9bd3-47da-9965-b29980ba8167",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 12,
+      "ts": "2025-09-18T14:56:33.509Z"
+    },
+    {
+      "id": "90280ad5-e187-4725-8424-4e90b321f627",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 10,
+      "ts": "2025-09-18T14:56:36.540Z"
+    },
+    {
+      "id": "eb0a6670-78ad-424b-a116-b9ffa84de1e9",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 18,
+      "ts": "2025-09-18T14:56:39.560Z"
+    },
+    {
+      "id": "f4061afa-d593-4b87-aeb9-164a36a3db77",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 18,
+      "ts": "2025-09-18T14:56:42.567Z"
+    },
+    {
+      "id": "f06259d8-91c0-4c70-b0e1-0acfa74ebd6d",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 14,
+      "ts": "2025-09-18T14:56:45.589Z"
+    },
+    {
+      "id": "236a23e8-da47-4604-865b-ce8e089bd22b",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 19,
+      "ts": "2025-09-18T14:56:48.610Z"
+    },
+    {
+      "id": "27c1fff9-4f50-44b6-a7c7-83ba3fdf2cb0",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 10,
+      "ts": "2025-09-18T14:56:51.631Z"
+    },
+    {
+      "id": "bc09e253-ad09-460c-9d97-346e44f20aa6",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 12,
+      "ts": "2025-09-18T14:56:54.652Z"
+    },
+    {
+      "id": "c3a0ce80-e0b1-415c-a341-53c9ff9faadf",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 7,
+      "ts": "2025-09-18T14:56:57.673Z"
+    },
+    {
+      "id": "cb445276-b9bc-4a37-9939-31965e152edf",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 11,
+      "ts": "2025-09-18T14:57:00.684Z"
+    },
+    {
+      "id": "62ffd2cb-f46f-43b1-a133-e332ea23f4b3",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 17,
+      "ts": "2025-09-18T14:57:03.692Z"
+    },
+    {
+      "id": "1c09d081-0390-4cc5-9636-a151d3988a5b",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 5,
+      "ts": "2025-09-18T14:57:06.711Z"
+    },
+    {
+      "id": "83cf7b71-ace5-4820-ad1a-2ca581397c2b",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 11,
+      "ts": "2025-09-18T14:57:09.722Z"
+    },
+    {
+      "id": "19f65521-a9a5-4bab-ad20-dd24a0ca857b",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 19,
+      "ts": "2025-09-18T14:57:12.749Z"
+    },
+    {
+      "id": "52d0b4d0-94c6-4b02-a3b5-dabdec6d6e28",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 8,
+      "ts": "2025-09-18T14:57:15.766Z"
+    },
+    {
+      "id": "f0e88a30-16c7-4792-a78b-9d6c53d696aa",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 12,
+      "ts": "2025-09-18T14:57:18.784Z"
+    },
+    {
+      "id": "f33d993b-dae6-4921-bf42-d060c10609fd",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 16,
+      "ts": "2025-09-18T14:57:21.801Z"
+    },
+    {
+      "id": "eb97ec26-ffc9-4df5-a90a-64044d4c761f",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 11,
+      "ts": "2025-09-18T14:57:24.817Z"
+    },
+    {
+      "id": "fd6b470d-d199-4b5c-b783-4c1716f45007",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 6,
+      "ts": "2025-09-18T14:57:27.839Z"
+    },
+    {
+      "id": "15d57b09-6410-469f-bc0a-e7f0bb100281",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 12,
+      "ts": "2025-09-18T14:57:30.848Z"
+    },
+    {
+      "id": "7e564a2b-6b79-461e-9a93-7156d55a4e28",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 13,
+      "ts": "2025-09-18T14:57:33.856Z"
+    },
+    {
+      "id": "a9a0d924-7f66-4342-bba7-0366ec98c28c",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 15,
+      "ts": "2025-09-18T14:57:36.871Z"
+    },
+    {
+      "id": "97b0c147-a8b4-4e80-869a-e2323e9f2aa0",
+      "type": "maintenance",
+      "crusherId": "c-103",
+      "note": "Emptied hopper",
+      "ts": "2025-09-18T14:57:36.876Z"
+    },
+    {
+      "id": "bd7c9104-eb60-42b9-baa4-72926b614d0a",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 9,
+      "ts": "2025-09-18T14:57:39.889Z"
+    },
+    {
+      "id": "6aa7dc18-a3ce-4977-80b4-63eceac17da5",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 6,
+      "ts": "2025-09-18T14:57:42.912Z"
+    },
+    {
+      "id": "103ce210-d7f8-4b50-87d0-978eed0dfa99",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 20,
+      "ts": "2025-09-18T14:57:45.940Z"
+    },
+    {
+      "id": "e4e4a0b5-78f6-4863-8682-6f92cf8549b8",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 20,
+      "ts": "2025-09-18T14:57:48.958Z"
+    },
+    {
+      "id": "6e23190f-df14-4da9-bbed-074502733272",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 5,
+      "ts": "2025-09-18T14:57:51.979Z"
+    },
+    {
+      "id": "69c9d2c5-2d64-4d7d-81a4-c909da95650d",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 13,
+      "ts": "2025-09-18T14:57:54.994Z"
+    },
+    {
+      "id": "2afa1779-a07e-4498-b8e0-b05b638e73e7",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 20,
+      "ts": "2025-09-18T14:57:58.002Z"
+    },
+    {
+      "id": "7b95f00a-53d7-4041-890d-af610139c036",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 16,
+      "ts": "2025-09-18T14:58:01.011Z"
+    },
+    {
+      "id": "f5b42c62-6bdb-461f-9bd4-a84831032b43",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 12,
+      "ts": "2025-09-18T14:58:04.022Z"
+    },
+    {
+      "id": "3675ae07-3f8d-497a-be5a-f5b86c528dc1",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 5,
+      "ts": "2025-09-18T14:58:07.037Z"
+    },
+    {
+      "id": "3438c698-62e7-459d-8a9a-bbb447137d90",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 14,
+      "ts": "2025-09-18T14:58:10.053Z"
+    },
+    {
+      "id": "42055753-50c4-451e-bd6e-666b5a00fdd0",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 10,
+      "ts": "2025-09-18T14:58:13.068Z"
+    },
+    {
+      "id": "c6b169c3-bbb8-4f01-b1f8-5e934445cde7",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 20,
+      "ts": "2025-09-18T14:58:16.090Z"
+    },
+    {
+      "id": "7e204b5d-77bd-4132-9356-8402b8bd0ef4",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 11,
+      "ts": "2025-09-18T14:58:19.120Z"
+    },
+    {
+      "id": "8baaedfd-a244-4caa-be0b-8977e572578c",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 16,
+      "ts": "2025-09-18T14:58:22.144Z"
+    },
+    {
+      "id": "9091ff5d-aade-4a33-bbf4-dc96a15d746c",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 15,
+      "ts": "2025-09-18T14:58:25.169Z"
+    },
+    {
+      "id": "a079be1e-af6d-4878-9c95-67345a010d9e",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 17,
+      "ts": "2025-09-18T14:58:28.187Z"
+    },
+    {
+      "id": "4c95107d-5b78-40bb-a1a1-eaf47b17eb64",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 5,
+      "ts": "2025-09-18T14:58:31.208Z"
+    },
+    {
+      "id": "63de17d8-fa20-4a7e-b3eb-5e206161777b",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 18,
+      "ts": "2025-09-18T14:58:34.227Z"
+    },
+    {
+      "id": "1cfe5d95-018b-47e5-a1ba-7df20ea8fc54",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 7,
+      "ts": "2025-09-18T14:58:37.245Z"
+    },
+    {
+      "id": "6e5ba33c-2755-40bc-9c62-45dd1de98757",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 15,
+      "ts": "2025-09-18T14:58:40.253Z"
+    },
+    {
+      "id": "2662182b-75a1-4758-9a4d-814d1e641eb9",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 20,
+      "ts": "2025-09-18T14:58:43.262Z"
+    },
+    {
+      "id": "59a0bded-976c-4b3e-b3bd-e992500c3642",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 5,
+      "ts": "2025-09-18T14:58:46.274Z"
+    },
+    {
+      "id": "4b8ee0f5-81c7-443d-8875-be8e47a1c88b",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 12,
+      "ts": "2025-09-18T14:58:49.299Z"
+    },
+    {
+      "id": "0278e805-f43c-48ca-81be-f94e9c62f978",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 16,
+      "ts": "2025-09-18T14:58:52.316Z"
+    },
+    {
+      "id": "c627fce6-ae2f-4416-aa6e-2081c053f012",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 14,
+      "ts": "2025-09-18T14:58:55.331Z"
+    },
+    {
+      "id": "422ab5cf-8ca9-472d-b1be-1f6921a33b60",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 18,
+      "ts": "2025-09-18T14:58:58.348Z"
+    },
+    {
+      "id": "d6dcc5c2-07ac-4f56-80f7-a4b0cfb6b8a1",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 18,
+      "ts": "2025-09-18T14:59:01.374Z"
+    },
+    {
+      "id": "b7851ff9-85d6-438e-ae0e-beb278637c25",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 16,
+      "ts": "2025-09-18T14:59:04.390Z"
+    },
+    {
+      "id": "8e9e8044-81cb-45b9-8723-eded0affd9dc",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 20,
+      "ts": "2025-09-18T14:59:07.412Z"
+    },
+    {
+      "id": "1d618505-eef8-4816-96c1-cee5ea77194e",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 11,
+      "ts": "2025-09-18T14:59:10.438Z"
+    },
+    {
+      "id": "cef43d07-6e32-4f5e-8241-e771df014e38",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 7,
+      "ts": "2025-09-18T14:59:13.462Z"
+    },
+    {
+      "id": "bc4e51e6-50a1-460c-b516-399c452e2b36",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 13,
+      "ts": "2025-09-18T14:59:16.481Z"
+    },
+    {
+      "id": "5bbc4353-e97c-4c50-8b9b-328129d24437",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 6,
+      "ts": "2025-09-18T14:59:19.507Z"
+    },
+    {
+      "id": "4503c2e4-fd16-4048-99b6-f6d11d4c7c34",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 9,
+      "ts": "2025-09-18T14:59:22.541Z"
+    },
+    {
+      "id": "217681e1-e394-49bc-8718-7ad303e0cd7b",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 20,
+      "ts": "2025-09-18T14:59:25.563Z"
+    },
+    {
+      "id": "ed36dbc5-b87f-4841-9ed3-83946d72d1d4",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 13,
+      "ts": "2025-09-18T14:59:28.591Z"
+    },
+    {
+      "id": "fa54f01e-e1a6-45ac-9702-e12e0f5d87fe",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 16,
+      "ts": "2025-09-18T14:59:31.603Z"
+    },
+    {
+      "id": "1ea14904-dbc0-445f-bf52-faae782c5618",
+      "type": "maintenance",
+      "crusherId": "c-102",
+      "note": "Emptied hopper",
+      "ts": "2025-09-18T14:59:31.611Z"
+    },
+    {
+      "id": "65dddd42-fbb6-46e5-96b6-574d7d217d81",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 17,
+      "ts": "2025-09-18T14:59:34.623Z"
+    },
+    {
+      "id": "f2e0fa92-8471-465d-8ad5-9f404259f311",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 7,
+      "ts": "2025-09-18T14:59:37.641Z"
+    },
+    {
+      "id": "7dc8fc2c-d015-4b49-9e40-77448307bb85",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 8,
+      "ts": "2025-09-18T14:59:40.663Z"
+    },
+    {
+      "id": "7c318588-e532-4fcf-9c32-fe4d966e1673",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 12,
+      "ts": "2025-09-18T14:59:43.672Z"
+    },
+    {
+      "id": "b198674f-68c8-4e00-99b1-cbf465473190",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 8,
+      "ts": "2025-09-18T14:59:46.696Z"
+    },
+    {
+      "id": "f868b59a-4ea6-4502-81e4-e65886069a7f",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 19,
+      "ts": "2025-09-18T14:59:49.717Z"
+    },
+    {
+      "id": "e3e7075f-adf5-4e30-b051-09cbb585ba7d",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 9,
+      "ts": "2025-09-18T14:59:52.730Z"
+    },
+    {
+      "id": "e3eb9ad3-15a2-4463-a9a4-02ec7bbe630a",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 16,
+      "ts": "2025-09-18T14:59:55.754Z"
+    },
+    {
+      "id": "86f27fe3-77b3-43f2-912f-4276f5f7a336",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 14,
+      "ts": "2025-09-18T14:59:58.771Z"
+    },
+    {
+      "id": "191e2e63-10a9-4fe4-b013-beb4927f97db",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 20,
+      "ts": "2025-09-18T15:00:01.789Z"
+    },
+    {
+      "id": "90e9feb6-17fc-494e-a8e6-48c8154cf6e9",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 6,
+      "ts": "2025-09-18T15:00:04.799Z"
+    },
+    {
+      "id": "d14bb308-b400-4f9a-a1fa-7cb3f536e809",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 13,
+      "ts": "2025-09-18T15:00:07.818Z"
+    },
+    {
+      "id": "39b894dd-3533-4939-b6a3-bbd03d7fcf3d",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 11,
+      "ts": "2025-09-18T15:00:10.837Z"
+    },
+    {
+      "id": "76881b00-9b0b-4b96-b388-d1f905c180fc",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 14,
+      "ts": "2025-09-18T15:00:13.859Z"
+    },
+    {
+      "id": "af9bbf75-9fe7-44d5-8419-389d2a03366f",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 14,
+      "ts": "2025-09-18T15:00:16.885Z"
+    },
+    {
+      "id": "1971280b-4a5a-4717-a16e-f3026afcbb73",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 12,
+      "ts": "2025-09-18T15:00:19.899Z"
+    },
+    {
+      "id": "d3523db2-e1e6-4c34-bc78-6113c6ba2695",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 5,
+      "ts": "2025-09-18T15:00:22.919Z"
+    },
+    {
+      "id": "8e65cd6e-9c60-47cc-9792-c07350195ffa",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 14,
+      "ts": "2025-09-18T15:00:25.934Z"
+    },
+    {
+      "id": "57e912b4-8d4f-44c0-8a40-562ef49d0b4f",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 19,
+      "ts": "2025-09-18T15:00:28.954Z"
+    },
+    {
+      "id": "04f00534-dcc8-4e4a-ad9d-57e3d7363414",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 18,
+      "ts": "2025-09-18T15:00:31.970Z"
+    },
+    {
+      "id": "1fd74bab-c996-4e67-b16f-e6c1d70c76f3",
+      "type": "maintenance",
+      "crusherId": "c-103",
+      "note": "Emptied hopper",
+      "ts": "2025-09-18T15:00:31.975Z"
+    },
+    {
+      "id": "02830ea2-adcb-46ef-afb5-6aef547f4b63",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 13,
+      "ts": "2025-09-18T15:00:34.993Z"
+    },
+    {
+      "id": "dc3bd477-dbed-4d0b-a71d-452390ced35d",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 7,
+      "ts": "2025-09-18T15:00:38.005Z"
+    },
+    {
+      "id": "6e45aa74-7e4f-4d83-8bbd-16d37dbc3d54",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 7,
+      "ts": "2025-09-18T15:00:41.023Z"
+    },
+    {
+      "id": "c87ad638-0210-4f2a-b112-630359f746bd",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 15,
+      "ts": "2025-09-18T15:00:44.043Z"
+    },
+    {
+      "id": "82c1d68a-c418-49b4-b6ad-d7e1e440515b",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 5,
+      "ts": "2025-09-18T15:00:47.065Z"
+    },
+    {
+      "id": "a44c0c49-d5cf-4d00-ab66-c45bf2fc47ba",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 20,
+      "ts": "2025-09-18T15:00:50.090Z"
+    },
+    {
+      "id": "fa4b3341-2c1f-4834-b3fa-5a872f25aed3",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 10,
+      "ts": "2025-09-18T15:00:53.103Z"
+    },
+    {
+      "id": "6dd195bc-4925-47e6-a3b8-cbcc17a0031e",
+      "type": "crush",
+      "crusherId": "c-103",
+      "qty": 6,
+      "ts": "2025-09-18T15:00:56.112Z"
+    },
+    {
+      "id": "267b2e01-d508-4a8a-99a3-eea41c4d5285",
+      "type": "crush",
+      "crusherId": "c-102",
+      "qty": 9,
+      "ts": "2025-09-18T15:00:59.123Z"
+    },
+    {
+      "id": "9f1439cf-bc8c-477d-8040-63ea135ec003",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 18,
+      "ts": "2025-09-18T15:01:02.148Z"
+    },
+    {
+      "id": "c34dbdf1-0091-4c7f-97ac-0ea1ea14f58a",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 7,
+      "ts": "2025-09-18T15:01:05.159Z"
+    },
+    {
+      "id": "272f2c29-b137-4209-b4a3-845a6b31f8da",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 5,
+      "ts": "2025-09-18T15:01:08.176Z"
+    },
+    {
+      "id": "fda6e59f-6cc6-4e0c-8130-d93c143a6e48",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 12,
+      "ts": "2025-09-18T15:01:11.194Z"
+    },
+    {
+      "id": "b743507b-464c-41ed-a195-82eb225adf66",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 6,
+      "ts": "2025-09-18T15:01:14.220Z"
+    },
+    {
+      "id": "a9e4c0fd-4d27-4f76-ba24-92592087a48b",
+      "type": "crush",
+      "crusherId": "c-101",
+      "qty": 15,
+      "ts": "2025-09-18T15:01:17.233Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "a300065e-494a-4412-a4be-004ea6fc558b",
+      "level": "info",
+      "source": "c-102",
+      "message": "Sensor check required",
+      "ts": "2025-09-18T15:00:59.129Z"
+    },
+    {
+      "id": "ce58f2d2-37c7-4f76-9640-dce25b112988",
+      "level": "info",
+      "source": "c-101",
+      "message": "Temperature high",
+      "ts": "2025-09-18T15:00:47.075Z"
+    },
+    {
+      "id": "a01d4975-6ef2-480a-ae62-f6079d64c258",
+      "level": "warning",
+      "source": "c-101",
+      "message": "High fill level (>85%)",
+      "ts": "2025-09-18T15:01:14.220Z"
+    },
+    {
+      "id": "4dc8987a-d491-4206-ae6d-3d30dd549a87",
+      "level": "warning",
+      "source": "c-101",
+      "message": "High fill level (>85%)",
+      "ts": "2025-09-18T15:01:17.233Z"
+    }
+  ],
+  "routes": [
+    {
+      "id": "r-1",
+      "name": "Dublin Loop",
+      "path": [
+        [
+          53.3498,
+          -6.2603
+        ],
+        [
+          53.343,
+          -6.271
+        ],
+        [
+          53.36,
+          -6.29
+        ]
+      ],
+      "stops": [
+        {
+          "crusherId": "c-101"
+        }
+      ]
+    },
+    {
+      "id": "r-2",
+      "name": "Southwest",
+      "path": [
+        [
+          53.3498,
+          -6.2603
+        ],
+        [
+          51.8985,
+          -8.4756
+        ]
+      ],
+      "stops": [
+        {
+          "crusherId": "c-102"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "role-superadminpel",
+      "name": "SuperAdminPEL",
+      "power": 100,
+      "permissions": {
+        "canManageRoles": true,
+        "canAssignRoles": true,
+        "view": {
+          "dashboard": true,
+          "alerts": true,
+          "routes": true,
+          "map": true,
+          "telemetryFields": {
+            "fillLevel": true,
+            "vibration": true,
+            "temperature": true
+          }
+        }
+      }
+    },
+    {
+      "id": "role-adminpel",
+      "name": "AdminPEL",
+      "power": 80,
+      "permissions": {
+        "canManageRoles": true,
+        "canAssignRoles": true,
+        "view": {
+          "dashboard": true,
+          "alerts": true,
+          "routes": true,
+          "map": true,
+          "telemetryFields": {
+            "fillLevel": true,
+            "vibration": true,
+            "temperature": true
+          },
+          "users": true,
+          "settings": true,
+          "crushers": true,
+          "reports": true,
+          "roles": true
+        }
+      }
+    },
+    {
+      "id": "role-distributor",
+      "name": "Distributor",
+      "power": 60,
+      "permissions": {
+        "canManageRoles": false,
+        "canAssignRoles": false,
+        "view": {
+          "dashboard": true,
+          "alerts": false,
+          "routes": true,
+          "map": true,
+          "telemetryFields": {
+            "fillLevel": true,
+            "vibration": false,
+            "temperature": false
+          }
+        }
+      }
+    },
+    {
+      "id": "role-technician",
+      "name": "Technician",
+      "power": 50,
+      "permissions": {
+        "canManageRoles": false,
+        "canAssignRoles": false,
+        "view": {
+          "dashboard": true,
+          "alerts": true,
+          "routes": false,
+          "map": true,
+          "telemetryFields": {
+            "fillLevel": true,
+            "vibration": true,
+            "temperature": true
+          }
+        }
+      }
+    },
+    {
+      "id": "role-customer",
+      "name": "Customer",
+      "power": 40,
+      "permissions": {
+        "canManageRoles": false,
+        "canAssignRoles": false,
+        "view": {
+          "dashboard": true,
+          "alerts": false,
+          "routes": true,
+          "map": true,
+          "telemetryFields": {
+            "fillLevel": true,
+            "vibration": false,
+            "temperature": false
+          },
+          "reports": true,
+          "settings": true,
+          "crushers": false
+        }
+      }
+    }
+  ]
+}

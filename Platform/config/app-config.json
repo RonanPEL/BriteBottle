@@ -1,0 +1,9 @@
+{
+  "apiBase": "https://api.example.com",
+  "apiKey": "dashboard-api-key",
+  "publicBaseUrl": "https://api.example.com",
+  "webBaseUrl": "https://dashboard.example.com",
+  "cors": { "origins": ["https://dashboard.example.com"] },
+  "aws": { "region": "eu-west-1", "bucket": "your-bucket" },
+  "features": { "lock": true }
+}
